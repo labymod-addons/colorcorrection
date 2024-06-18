@@ -1,0 +1,28 @@
+{
+  "colorcorrection": {
+    "settings": {
+      "name": "Color Correction",
+      "enabled": {
+        "name": "Enabled"
+      },
+      "red": {
+        "name": "Red"
+      },
+      "green": {
+        "name": "Green"
+      },
+      "blue": {
+        "name": "Blue"
+      },
+      "hue": {
+        "name": "Hue"
+      },
+      "saturation": {
+        "name": "Saturation"
+      },
+      "lightness": {
+        "name": "Brightness"
+      }
+    }
+  }
+}

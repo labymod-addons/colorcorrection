@@ -1,0 +1,29 @@
+{
+  "vertex": "labymod:shaders/post/default_post.vsh",
+  "fragment": "colorcorrection:shaders/post/colorcorrection.fsh",
+  "uniforms": [
+    {
+      "name": "RGBModifiers",
+      "type": "vec3"
+    },
+    {
+      "name": "HSLModifiers",
+      "type": "vec3"
+    }
+  ],
+  "targets": [
+    "swap"
+  ],
+  "passes": [
+    {
+      "name": "color_correction",
+      "sourceTarget": "minecraft:main",
+      "destinationTarget": "swap"
+    },
+    {
+      "name": "color_correction",
+      "sourceTarget": "swap",
+      "destinationTarget": "minecraft:main"
+    }
+  ]
+}
