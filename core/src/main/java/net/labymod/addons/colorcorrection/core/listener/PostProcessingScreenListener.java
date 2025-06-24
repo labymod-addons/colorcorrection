@@ -52,12 +52,12 @@ public class PostProcessingScreenListener {
         float red = configuration.red().get();
         float green = configuration.green().get();
         float blue = configuration.blue().get();
-        program.setVec3("RGBModifiers", red, green, blue);
+        program.setUniform("RGBModifiers", uniform -> uniform.setVec3(red, green, blue));
 
         float hue = configuration.hue().get();
         float saturation = configuration.saturation().get();
         float lightness = configuration.lightness().get();
-        program.setVec3("HSLModifiers", hue, saturation, lightness);
+        program.setUniform("HSLModifiers", uniform -> uniform.setVec3(hue, saturation, lightness));
       });
       return processor;
     });
