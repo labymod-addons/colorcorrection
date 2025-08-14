@@ -24,7 +24,9 @@ import net.labymod.api.client.gfx.pipeline.post.PostProcessorLoader;
 import net.labymod.api.client.resources.ResourceLocation;
 import net.labymod.api.event.Subscribe;
 import net.labymod.api.event.client.render.post.PostProcessingScreenEvent;
+import net.labymod.api.laby3d.shaders.block.CustomPostProcessorUniformBlock;
 import net.labymod.api.util.Lazy;
+import org.joml.Vector3f;
 
 public class PostProcessingScreenListener {
 
@@ -47,17 +49,20 @@ public class PostProcessingScreenListener {
           this.minecraft.mainTarget(),
           COLOR_CORRECTION
       );
-      processor.setCustomPostPassProcessor((name, program, time) -> {
+
+      processor.setCustomPostPassProcessor((data, command, time) -> {
         ColorCorrectionConfiguration configuration = this.colorCorrection.configuration();
         float red = configuration.red().get();
         float green = configuration.green().get();
         float blue = configuration.blue().get();
-        program.setUniform("RGBModifiers", uniform -> uniform.setVec3(red, green, blue));
 
         float hue = configuration.hue().get();
         float saturation = configuration.saturation().get();
         float lightness = configuration.lightness().get();
-        program.setUniform("HSLModifiers", uniform -> uniform.setVec3(hue, saturation, lightness));
+
+        CustomPostProcessorUniformBlock colorDataBlock = data.getBlock("ColorData");
+        colorDataBlock.getProperty("RGB").set(new Vector3f(red, green, blue));
+        colorDataBlock.getProperty("HSL").set(new Vector3f(hue, saturation, lightness));
       });
       return processor;
     });

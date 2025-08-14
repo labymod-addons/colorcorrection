@@ -1,14 +1,25 @@
 {
   "vertex": "labymod:shaders/post/default_post.vsh",
   "fragment": "colorcorrection:shaders/post/colorcorrection.fsh",
-  "uniforms": [
+  "samplers": [
     {
-      "name": "RGBModifiers",
-      "type": "vec3"
-    },
+      "name": "DiffuseSampler",
+      "index": 0
+    }
+  ],
+  "uniformBlocks": [
     {
-      "name": "HSLModifiers",
-      "type": "vec3"
+      "name": "ColorData",
+      "uniforms": [
+        {
+          "name": "RGB",
+          "type": "vec3"
+        },
+        {
+          "name": "HSL",
+          "type": "vec3"
+        }
+      ]
     }
   ],
   "targets": [

@@ -1,8 +1,17 @@
 #version 150
 
+#l3d_import <labymod:shaders/include/post_processor.glsl>
+#ifdef UNIFORM_BLOCK
+layout(std140) uniform ColorData {
+  vec3 RGB;
+  vec3 HSL;
+};
+#else
+uniform vec3 RGB;
+uniform vec3 HSL;
+#endif
+
 uniform sampler2D DiffuseSampler;
-uniform vec3 RGBModifiers;
-uniform vec3 HSLModifiers;
 
 in vec2 texCoord;
 
@@ -70,6 +79,6 @@ vec3 HSLtoRGB(vec3 color) {
 
 void main() {
   vec4 color = TEXTURE(DiffuseSampler, texCoord);
-  vec3 hsl = RGBtoHSL(color.rgb * RGBModifiers);
-  fragColor = vec4(HSLtoRGB(hsl * HSLModifiers), color.a);
+  vec3 hsl = RGBtoHSL(color.rgb * RGB);
+  fragColor = vec4(HSLtoRGB(hsl * HSL), color.a);
 }
