@@ -58,6 +58,8 @@ public class ColorCorrectionConfiguration extends AddonConfig {
   @SliderSetting(min = 0.5F, max = 1.25F, steps = 0.05F)
   private final ConfigProperty<Float> lightness = new ConfigProperty<>(1.0F);
 
+  private final ConfigProperty<Long> hideBlackScreenWarningTill = new ConfigProperty<>(0L);
+
   @Override
   public ConfigProperty<Boolean> enabled() {
     return this.enabled;
@@ -85,6 +87,10 @@ public class ColorCorrectionConfiguration extends AddonConfig {
 
   public ConfigProperty<Float> lightness() {
     return this.lightness;
+  }
+
+  public ConfigProperty<Long> hideBlackScreenWarningTill() {
+    return this.hideBlackScreenWarningTill;
   }
 
 }

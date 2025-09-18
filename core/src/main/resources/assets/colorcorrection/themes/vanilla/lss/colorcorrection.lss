@@ -1,0 +1,18 @@
+HideMessageCheckboxContainer {
+  margin-top: 3;
+  margin-bottom: -2;
+  height: 8;
+  orientation: horizontal;
+  space-between-entries: 2;
+
+  CheckBox {
+    height: 8;
+    width: 8;
+  }
+
+  Component {
+    margin-top: 1;
+    height: 8;
+    font-size: 0.6;
+  }
+}

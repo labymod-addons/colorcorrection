@@ -17,6 +17,7 @@
 package net.labymod.addons.colorcorrection.core;
 
 import net.labymod.addons.colorcorrection.core.listener.PostProcessingScreenListener;
+import net.labymod.addons.colorcorrection.core.listener.BlackscreenListener;
 import net.labymod.api.addon.LabyAddon;
 import net.labymod.api.models.addon.annotation.AddonMain;
 
@@ -28,6 +29,7 @@ public class ColorCorrection extends LabyAddon<ColorCorrectionConfiguration> {
     this.registerSettingCategory();
 
     this.registerListener(new PostProcessingScreenListener(this, this.labyAPI().minecraft()));
+    this.registerListener(new BlackscreenListener(this.configuration()));
   }
 
   @Override
