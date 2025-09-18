@@ -23,6 +23,17 @@
       "lightness": {
         "name": "Brightness"
       }
+    },
+    "blackscreen": {
+      "popup": {
+        "title": "Color Correction: Potential Blackscreen Detected",
+        "description": "Your settings in the ColorCorrection add-on may cause a black screen.\nWould you like to reset to default settings?",
+        "hideNextTime": "Don't show this message for the next %s days",
+        "button": {
+          "reset": "Reset settings",
+          "ignore": "Ignore"
+        }
+      }
     }
   }
 }
