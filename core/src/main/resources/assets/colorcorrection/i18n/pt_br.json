@@ -4,6 +4,9 @@
             "name": "Correção de Cor",
             "enabled": {
                 "name": "Ativado"
+            },
+            "red": {
+                "name": "Vermelho"
             }
         }
     }
