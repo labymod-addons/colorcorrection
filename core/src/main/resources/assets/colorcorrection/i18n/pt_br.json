@@ -1,7 +1,10 @@
 {
     "colorcorrection": {
         "settings": {
-            "name": "Correção de Cor"
+            "name": "Correção de Cor",
+            "enabled": {
+                "name": "Ativado"
+            }
         }
     }
 }
