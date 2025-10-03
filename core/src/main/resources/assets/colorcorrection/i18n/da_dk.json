@@ -1,1 +1,27 @@
-{}
+{
+    "colorcorrection": {
+        "settings": {
+            "name": "Farve Korrektion",
+            "enabled": {
+                "name": "Aktiveret"
+            },
+            "red": {
+                "name": "Rød"
+            },
+            "green": {
+                "name": "Grøn"
+            },
+            "blue": {
+                "name": "Blå"
+            }
+        },
+        "blackscreen": {
+            "popup": {
+                "button": {
+                    "reset": "Nulstil indstillinger",
+                    "ignore": "Ignorer"
+                }
+            }
+        }
+    }
+}
