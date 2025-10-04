@@ -13,6 +13,15 @@
             },
             "blue": {
                 "name": "Mavi"
+            },
+            "hue": {
+                "name": "Ton"
+            },
+            "saturation": {
+                "name": "Doygunluk"
+            },
+            "lightness": {
+                "name": "Parlaklık"
             }
         }
     }
