@@ -11,6 +11,14 @@
             "blue": {
                 "name": "Azul"
             }
+        },
+        "blackscreen": {
+            "popup": {
+                "button": {
+                    "reset": "Redefinir configurações",
+                    "ignore": "Ignorar"
+                }
+            }
         }
     }
 }
