@@ -10,6 +10,15 @@
             },
             "blue": {
                 "name": "Azul"
+            },
+            "green": {
+                "name": "Verde"
+            },
+            "saturation": {
+                "name": "Saturação"
+            },
+            "lightness": {
+                "name": "Brilho"
             }
         },
         "blackscreen": {
