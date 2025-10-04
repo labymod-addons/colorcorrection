@@ -26,7 +26,8 @@
                 "button": {
                     "reset": "Redefinir configurações",
                     "ignore": "Ignorar"
-                }
+                },
+                "title": "Correção de Cor: Possível Tela Preta Detectada"
             }
         }
     }
