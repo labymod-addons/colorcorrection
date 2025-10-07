@@ -23,6 +23,17 @@
             "lightness": {
                 "name": "Parlaklık"
             }
+        },
+        "blackscreen": {
+            "popup": {
+                "title": "Renk Düzeltme: Olası Siyah Ekran Tespit Edildi",
+                "description": "ColorCorrection eklentisindeki ayarlarınız siyah bir ekran oluşmasına neden olabilir.\nVarsayılan ayarlara sıfırlamak ister misiniz?",
+                "hideNextTime": "Bu mesajı önümüzdeki %s gün boyunca gösterme",
+                "button": {
+                    "reset": "Ayarları sıfırla",
+                    "ignore": "Yok say"
+                }
+            }
         }
     }
 }
