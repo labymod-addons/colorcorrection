@@ -1,1 +1,25 @@
-{}
+{
+    "colorcorrection": {
+        "settings": {
+            "name": "Kleurcorrectie",
+            "enabled": {
+                "name": "Ingeschakeld"
+            },
+            "red": {
+                "name": "Rood"
+            },
+            "green": {
+                "name": "Groen"
+            },
+            "blue": {
+                "name": "Blauw"
+            },
+            "hue": {
+                "name": "Tint"
+            },
+            "saturation": {
+                "name": "Verzadiging"
+            }
+        }
+    }
+}
