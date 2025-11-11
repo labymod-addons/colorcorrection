@@ -13,6 +13,15 @@
             },
             "blue": {
                 "name": "Blå"
+            },
+            "hue": {
+                "name": "Farvetone"
+            },
+            "saturation": {
+                "name": "Mæthed"
+            },
+            "lightness": {
+                "name": "Lysstyrke"
             }
         },
         "blackscreen": {
@@ -20,7 +29,8 @@
                 "button": {
                     "reset": "Nulstil indstillinger",
                     "ignore": "Ignorer"
-                }
+                },
+                "hideNextTime": "Vis ikke denne besked de næste %s dage"
             }
         }
     }
