@@ -1,1 +1,19 @@
-{}
+{
+    "colorcorrection": {
+        "settings": {
+            "name": "Renk Düzeltmesi",
+            "enabled": {
+                "name": "Aktif"
+            },
+            "red": {
+                "name": "Kırmızı"
+            },
+            "green": {
+                "name": "Yeşil"
+            },
+            "blue": {
+                "name": "Mavi"
+            }
+        }
+    }
+}
