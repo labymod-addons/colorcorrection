@@ -19,6 +19,20 @@
             },
             "saturation": {
                 "name": "Verzadiging"
+            },
+            "lightness": {
+                "name": "Helderheid"
+            }
+        },
+        "blackscreen": {
+            "popup": {
+                "title": "Kleurcorrectie: Mogelijk zwart scherm gedetecteerd",
+                "description": "Je instellingen in de ColorCorrection-add-on kunnen een zwart scherm veroorzaken.\nWil je terugkeren naar de standaardinstellingen?",
+                "hideNextTime": "Deze melding de komende %s dagen niet weergeven",
+                "button": {
+                    "reset": "Instellingen resetten",
+                    "ignore": "negeren"
+                }
             }
         }
     }
