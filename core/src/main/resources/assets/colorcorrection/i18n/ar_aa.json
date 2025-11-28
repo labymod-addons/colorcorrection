@@ -7,6 +7,25 @@
             },
             "red": {
                 "name": "أحمر"
+            },
+            "green": {
+                "name": "اخضر"
+            },
+            "blue": {
+                "name": "ازرق"
+            },
+            "saturation": {
+                "name": "التشبع"
+            },
+            "lightness": {
+                "name": "السطوع"
+            }
+        },
+        "blackscreen": {
+            "popup": {
+                "button": {
+                    "ignore": "تجاهل"
+                }
             }
         }
     }
