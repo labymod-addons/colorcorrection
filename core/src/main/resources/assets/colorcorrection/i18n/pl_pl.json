@@ -1,1 +1,39 @@
-{}
+{
+    "colorcorrection": {
+        "settings": {
+            "name": "Color Correction",
+            "enabled": {
+                "name": "Włączone"
+            },
+            "red": {
+                "name": "Czerwony"
+            },
+            "green": {
+                "name": "Zielony"
+            },
+            "blue": {
+                "name": "Niebieski"
+            },
+            "hue": {
+                "name": "Odcień"
+            },
+            "saturation": {
+                "name": "Nasycenie"
+            },
+            "lightness": {
+                "name": "Jasność"
+            }
+        },
+        "blackscreen": {
+            "popup": {
+                "description": "Twoje ustawienia w dodatku ColorCorrection mogą powodować czarny ekran.\nCzy chcesz przywrócić domyślne ustawienia?",
+                "hideNextTime": "Nie pokazuj tej wiadomości przez następne %s dni",
+                "button": {
+                    "reset": "Przywróć ustawienia",
+                    "ignore": "Ignoruj"
+                },
+                "title": "Color Correction: Wykryto potencjalny czarny ekran"
+            }
+        }
+    }
+}
