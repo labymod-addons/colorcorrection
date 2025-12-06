@@ -1,1 +1,39 @@
-{}
+{
+    "colorcorrection": {
+        "settings": {
+            "name": "Color Correction",
+            "enabled": {
+                "name": "Включено"
+            },
+            "red": {
+                "name": "Красный"
+            },
+            "green": {
+                "name": "Зелёный"
+            },
+            "blue": {
+                "name": "Синий"
+            },
+            "hue": {
+                "name": "Тон"
+            },
+            "saturation": {
+                "name": "Насыщенность"
+            },
+            "lightness": {
+                "name": "Яркость"
+            }
+        },
+        "blackscreen": {
+            "popup": {
+                "title": "Color Correction: обнаружен возможный чёрный экран",
+                "description": "Настройки дополнения ColorCorrection могли сделать экран чёрным.\nЖелаете применить настройки по умолчанию?",
+                "hideNextTime": "Не показывать снова в течение %s дн.",
+                "button": {
+                    "reset": "Сбросить настройки",
+                    "ignore": "Пропустить"
+                }
+            }
+        }
+    }
+}
