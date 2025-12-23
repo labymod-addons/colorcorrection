@@ -30,7 +30,8 @@
                     "reset": "Nulstil indstillinger",
                     "ignore": "Ignorer"
                 },
-                "hideNextTime": "Vis ikke denne besked de næste %s dage"
+                "hideNextTime": "Vis ikke denne besked de næste %s dage",
+                "title": "Farvekorrektion: Potentiel sort skærm registreret"
             }
         }
     }
