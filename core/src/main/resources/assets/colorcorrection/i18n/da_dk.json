@@ -31,7 +31,8 @@
                     "ignore": "Ignorer"
                 },
                 "hideNextTime": "Vis ikke denne besked de næste %s dage",
-                "title": "Farvekorrektion: Potentiel sort skærm registreret"
+                "title": "Farvekorrektion: Potentiel sort skærm registreret",
+                "description": "Dine indstillinger i Farve Korrektion tilføjelsen kan forårsage sort skærm.\nKunne du tænke dig at nulstille til standard indstillinger?"
             }
         }
     }
