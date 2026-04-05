@@ -1,1 +1,13 @@
-{}
+{
+    "colorcorrection": {
+        "settings": {
+            "name": "Correction des couleurs",
+            "enabled": {
+                "name": "Activé"
+            },
+            "red": {
+                "name": "Rouge"
+            }
+        }
+    }
+}
