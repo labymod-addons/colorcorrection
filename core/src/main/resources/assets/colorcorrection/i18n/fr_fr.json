@@ -10,6 +10,29 @@
             },
             "green": {
                 "name": "Vert"
+            },
+            "blue": {
+                "name": "Bleu"
+            },
+            "hue": {
+                "name": "Teinte"
+            },
+            "saturation": {
+                "name": "Saturation"
+            },
+            "lightness": {
+                "name": "Luminosité"
+            }
+        },
+        "blackscreen": {
+            "popup": {
+                "title": "Correction des couleurs : détection possible d’un écran noir",
+                "description": "Vos paramètres dans le module complémentaire ColorCorrection peuvent provoquer un écran noir.\nVoulez-vous rétablir les paramètres par défaut ?",
+                "hideNextTime": "Ne plus afficher ce message pendant les %s prochains jours",
+                "button": {
+                    "reset": "Réinitialiser les paramètres",
+                    "ignore": "Ignorer"
+                }
             }
         }
     }
