@@ -1,7 +1,13 @@
 {
     "colorcorrection": {
         "settings": {
-            "name": "تصحيح الألوان"
+            "name": "تصحيح الألوان",
+            "enabled": {
+                "name": "مفعّل"
+            },
+            "red": {
+                "name": "أحمر"
+            }
         }
     }
 }
