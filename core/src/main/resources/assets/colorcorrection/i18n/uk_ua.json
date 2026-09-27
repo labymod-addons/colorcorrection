@@ -1,1 +1,14 @@
-{}
+{
+    "colorcorrection": {
+        "settings": {
+            "lightness": {
+                "name": "Яскравість"
+            }
+        },
+        "blackscreen": {
+            "popup": {
+                "title": "Корекція кольорів: виявлено потенційний чорний екран"
+            }
+        }
+    }
+}
